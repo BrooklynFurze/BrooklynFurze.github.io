@@ -1,0 +1,29 @@
+body {
+    background-image: linear-gradient(90deg, #182e57 0%, #1b3566 60%, #2b529c 100%);
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: aquamarine;
+    text-align: center;
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    color:aquamarine;
+}
+
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+    font-size: 1.7rem;
+    color: #6ede88;
+    text-align:center;
+}
+
+img {
+    padding: 0%;
+}
