@@ -28,19 +28,41 @@ p {
 a:link{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size : 2rem;
+    font-size : 1.2rem;
     color: #6ede88;
     text-decoration: none;
     display: block;
     text-align: right;
+    display: inline;
 }
 
 a:visited{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
-    font-size : 2rem;
+    font-size : 1.2rem;
     color: #6ede88;
     text-decoration: none;
     display:block;
     text-align: right;
 }
+/*
+header {
+    color: white;
+    top:2%;
+    position:fixed;
+    text-align: center;
+    font-size: 1.2rem;
+}
+*/
+
+button {
+    background-color: transparent;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #6ede88;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+}
+
