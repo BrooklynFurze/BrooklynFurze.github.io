@@ -2,30 +2,61 @@
 <HTML>
     <head>
         <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="universal.css">
     </head>
     <body>
-        <header>Woo look its a header</header>
+        <button class="back-button"><a href="index.html"> &larr; Main Page</a></button>
         <h1>Projects</h1>
-        <font color="white"> contents fade in as user scrolls. The stir fry is a placeholder image please pay it no mind</font>
         <h2 style="text-align:left"> Quality Control with Computer Vision</h2>
-        <div><p style="text-align:right"> <img src="Assets/teriyaki_chicken.jpg" width="700" height="400" align="left"><span> Utilizing OpenCV and C++, I made a system that was meant <br>
-                                           for usage in small-parts quality control, specifically washers.<br> 
-                                           The camera would be calibrated against a correct washer and <br> 
-                                           the number of pixels across a correct washer was would be <br> 
-                                           inputted into the system via a series of sliders. </span></p> </div> <br><br><br><br><br><br><br><br><br><br><br>
+        <div class="project">
+            
+            <div class="image">
+                <img src="Assets/teriyaki_chicken.jpg"  width="700" height="400">
+            </div>
+            <div class="description">
+                <p style="text-align: right">  
+                    Utilizing OpenCV and C++, I made a system that was meant 
+                    for usage in small-parts quality control, specifically washers.
+                    The camera would be calibrated against a correct washer and 
+                    the number of pixels across a correct washer was would be 
+                    inputted into the system via a series of sliders. 
+                </p>
+            </div>
+        </div>
+
         <h2 style="text-align:right"> Theater Lighting with Global Positioning</h2>
-        <p style="text-align:left" padding-right:0%><span>
-                 Utilizing a Raspberry Pi and a SparkFun GPS-RTK2 sensor,<br>
-                 I attempted to build a system that would take GPS coordinates<br>
-                 and auto-adjust a spotlight based on an actor's position on a <br> 
-                 stage. This ultimately ran into issues regarding poor signal <br> 
-                 within buildings, but for open-air stages such as concerts <br>
-                (rather than theater performances), this may still work. </span><img src="Assets/teriyaki_chicken.jpg" width="700" height="400" align="right"></p>
-        <h2 style="text-align:left"> Intro to Software Engineering Project</h2>
-        <p><span>Paragraph about SWEN 261 Project</span><img src="Assets/teriyaki_chicken.jpg" width="700" height="400" align="left"></p>
-        <!--this is not doing what it is supposed to be doing but it is the framework for a universal header-->
-        <bottom_text>I am happy to speak more about any of the above projects. For more information, see the Contact page.</bottom_text>
-        
+        <div class="project">
+            <div class="description">
+                <p style="text-align: left">
+                    Utilizing a Raspberry Pi and a SparkFun GPS-RTK2 sensor,
+                    I attempted to build a system that would take GPS coordinates
+                    and auto-adjust a spotlight based on an actor's position on a 
+                    stage. This ultimately ran into issues regarding poor signal 
+                    within buildings, but for open-air stages such as concerts 
+                    (rather than theater performances), this may still work.
+                </p>
+
+            </div>
+            <div class="image">
+                <img src="Assets/teriyaki_chicken.jpg" width="700" height="400" align="right">
+            </div>
+        </div>
+
+        <h2 style="text-align:left"> Rochester Rivers Fullstack Website - SWEN 261 Project</h2>
+        <div class="project">
+            <div class="image">
+                <img src="Assets/261_project.png"  width="700" height="400">
+            </div>
+            <div class="description">
+                <p style="text-align: right">A website created for an imaginary non-profit organization (Rochester Rivers). 
+                    The site featured two types of users - Admins and Helpers. Admins could manage
+                    items that the organization required within the store, and Helpers could
+                    purchase these items for the organization. Helpers had unique baskets (functionally
+                    equivalent to an online shopping cart), the contents of which would be preserved if
+                    the user exited the site. 
+                </p> 
+            </div>
+        </div>
 
     </body>
 </HTML>

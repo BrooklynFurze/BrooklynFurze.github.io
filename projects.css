@@ -32,11 +32,18 @@ img {
     padding-left: 0%;
 }
 
-bottom_text {
-    color:white;
-    bottom:0%;
-    position:fixed;
-    text-align:center;
+
+.project{
+    display:flex;
+    justify-content: space-between;
 }
+
+.description{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
 
 
