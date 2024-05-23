@@ -51,23 +51,33 @@ a:visited{
 }
 
 button {
-    background-color: transparent;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     border-color: #6ede88;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: transparent;
     border-radius: 4px;
-
     margin: 5px 5px 0 10px;
 }
 
+
 .resume{
-    display: block;
-    justify-content: center;
-    align-items: center;
     text-align:center;
+}
+
+.button{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*border-color: #6ede88;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border: 2px solid #6ede88;
+    border-radius: 4px;
+    margin: 5px 5px 0 10px;
 }
 
 img {

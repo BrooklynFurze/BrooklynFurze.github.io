@@ -34,3 +34,55 @@ a:visited{
     display:block;
     text-align: right;
 }
+
+.standard_button{
+    font-size:1.2rem;
+    text-align: center;
+    color:#6ede88;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #6ede88;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    margin: 5px 5px 0 10px;
+}
+
+.standard_button:hover{
+    background-color: #6ede88;
+    color:#152465;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.important_button{
+    font-size:1.2rem;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #6ede88;
+    background-color: #6ede88;
+    border-radius: 4px;
+    margin: 5px 5px 0 10px;
+    padding: 10px 25px;
+}
+
+.important_button a{
+    font-size: 1.2rem;
+    color:#152465;
+}
+
+.important_button:hover{
+    background-color: transparent;
+    color:#6ede88;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.important_button:hover a{
+    color:#6ede88;
+}
+
+
+
+
