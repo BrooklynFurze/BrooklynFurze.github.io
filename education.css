@@ -9,3 +9,37 @@ h1 {
     color: aquamarine;
     text-align: center;
 }
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color:aquamarine;
+    text-align: center;
+}
+
+.relevant_courses{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.course{
+    flex: 1;
+    min-width: 35%;
+    margin: 0 10px;
+}
+
+p {
+    color: #6ede88;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.course_name{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.course_description{
+    font-size:1.1rem;
+}
