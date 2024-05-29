@@ -88,3 +88,9 @@ img {
     height: 682px;
 
 }
+
+.face{
+    position: fixed;
+    left: -260px;
+    overflow: hidden;
+}
