@@ -24,29 +24,32 @@ h3{
     text-align: center;
 }
 
+p {
+    color: #6ede88;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Contains courses*/
 .relevant_courses{
     display:flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
+/*Contains name and description*/
 .course{
     flex: 1;
     min-width: 35%;
     margin: 0 10px;
 }
 
-p {
-    color: #6ede88;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
+/*Course title*/
 .course_name{
     font-size: 1.3rem;
     font-weight: bold;
 }
 
+/*Blurb about course requirements and topics covered*/
 .course_description{
     font-size:1.1rem;
 }

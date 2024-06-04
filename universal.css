@@ -1,3 +1,4 @@
+/*Button to return to main page*/
 .back-button{
     position: absolute;
     top: 10px;
@@ -13,7 +14,7 @@
     border-radius: 4px;
     margin: 5px 5px 0 10px;
 }
-
+/*Make it so that link colors don't change once they've been clicked*/
 a:link{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -35,6 +36,7 @@ a:visited{
     text-align: right;
 }
 
+/*One of two types of buttons and its corresponding effects*/
 .standard_button{
     font-size:1.2rem;
     text-align: center;
@@ -49,12 +51,14 @@ a:visited{
     margin: 5px 5px 0 10px;
 }
 
+/*Stops being transparent and becomes green*/
 .standard_button:hover{
     background-color: #6ede88;
     color:#152465;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
+/*The other type of button*/
 .important_button{
     font-size:1.2rem;
 
@@ -68,6 +72,7 @@ a:visited{
     padding: 10px 25px;
 }
 
+/*Stops being green and becomes transparent*/
 .important_button a{
     font-size: 1.2rem;
     color:#152465;
@@ -81,6 +86,19 @@ a:visited{
 
 .important_button:hover a{
     color:#6ede88;
+}
+
+/*Contains an image and a text blurb*/
+.project{
+    display:flex;
+    justify-content: space-between;
+}
+
+/*text blurb*/
+.description{
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 

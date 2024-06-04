@@ -26,19 +26,10 @@ p {
 
 img {
     padding-left: 0%;
+    border-radius: 6px;
 }
 
 
-.project{
-    display:flex;
-    justify-content: space-between;
-}
-
-.description{
-    flex: 1;
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 
 
