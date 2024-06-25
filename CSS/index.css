@@ -77,13 +77,12 @@ button {
 }
 
 .face{
-    /*Location and dimensions*/
-    left: -17%;
-    top: 6%;
-    width: 500px;
-    height: 682px;
+    /*Changed slightly to accomodate the image not getting huge when people adjust their screensize*/
+    left: -16vw;
+    top: 6vh;
+    width: 30vw;
+    height: auto; 
 
-    /*Positioning and overflow*/
     position: fixed;
     overflow: hidden;
 }
