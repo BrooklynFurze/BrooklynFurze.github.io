@@ -1,3 +1,15 @@
+body {
+    background-image: linear-gradient(90deg, #182e57 0%, #1b3566 60%, #2b529c 100%);
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: aquamarine;
+    text-align: center;
+}
+
 /*Button to return to main page*/
 .back-button{
     position: absolute;
@@ -37,7 +49,7 @@ a:visited{
 }
 
 /*One of two types of buttons and its corresponding effects*/
-.standard_button{
+.standard-button{
     font-size:1.2rem;
     text-align: center;
     color:#6ede88;
@@ -52,7 +64,7 @@ a:visited{
 }
 
 /*Stops being transparent and becomes green*/
-.standard_button:hover{
+.standard-button:hover{
     background-color: #6ede88;
     color:#152465;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
@@ -99,6 +111,14 @@ a:visited{
     flex: 1;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 
